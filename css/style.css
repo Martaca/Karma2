@@ -23,6 +23,9 @@ div {
 /*Navigation Section*/
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -86,4 +89,25 @@ div {
 .introduction h3 {
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
+}
+h2 {
+	text-align: center;
+	font-weight: 400;
+}
+.devices {
+	width: 33%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+	margin-right: -4px;
+}
+.captions {
+	display: inline-block;
+	width: 33%;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #4d4d4d;
+	margin-right: -4px;
 }
